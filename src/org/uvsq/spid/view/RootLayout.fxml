@@ -2,6 +2,6 @@
 	
 <?import javafx.scene.layout.BorderPane?>
 	
-<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uvsq.spid.view.RootController">
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.uvsq.spid.view.RootController">
 	<!-- TODO Add Nodes -->
 </BorderPane>

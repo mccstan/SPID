@@ -1,4 +1,4 @@
-package com.uvsq.spid.view;
+package org.uvsq.spid.view;
 
 public class RootController {
 	

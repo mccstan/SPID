@@ -1,6 +1,5 @@
-package com.uvsq.spid.view;
-
-import com.uvsq.spid.Main;
+package org.uvsq.spid.view;
+import org.uvsq.spid.Main;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.TableView;

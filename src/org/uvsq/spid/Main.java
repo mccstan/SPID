@@ -1,13 +1,13 @@
-package com.uvsq.spid;
+package org.uvsq.spid;
 	
 import java.io.IOException;
 
-import com.uvsq.spid.view.FilesOverviewController;
+import org.uvsq.spid.view.FilesOverviewController;
+
 import javafx.application.Application;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.fxml.FXMLLoader;
 
@@ -43,6 +43,7 @@ public class Main extends Application {
 	
 	public boolean showShareDialog() {
 	        try {
+	        	
 	            // Load the fxml file and create a new stage for the popup dialog.
 	            FXMLLoader loader = new FXMLLoader();
 	            loader.setLocation(Main.class.getResource("view/ShareForm.fxml"));
